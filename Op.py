@@ -1,0 +1,9 @@
+a=500
+b=24000
+print(a+b)
+print(b-a)
+print(b*a)
+print(b/a)
+print(b//a)
+print(b%a)
+print(b**a)
