@@ -1,0 +1,7 @@
+f=open('Intro.txt','r')
+print("Before edit:",f.read())
+f=open('Intro.txt','w')
+f.write("Hi, I'm Ms. Martha, and I like teaching! Hi, I'm Jose, and I like American Football! Hi, I'm Rosa, and I like art! Hi, I'm Inba, and I like coding! Hi, I'm Akhil, and I like math! Hi, I'm Evelyn, and I like books! Hi, I'm Ranjiev, and I like football(IT'S FOOTBALL, NOT SOCCER)! Hi, I'm Shravan, and I like Basketball!")
+f.close()
+f=open('Intro.txt','r')
+print("After edit:",f.read())
