@@ -1,0 +1,8 @@
+f=open('Read.txt','r')
+print(f.readline())
+f.readline()
+print(f.readline())
+f.readline()
+print(f.readline())
+f.readline()
+print(f.readline())
